@@ -1,0 +1,11 @@
+.chris {
+    width: 120px;
+    border-radius: 100px;
+}
+
+.border-chris {
+    border-bottom: 2px solid tomato;
+    padding: 50px;
+    border-radius: 5px;
+}
+
