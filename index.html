@@ -1,96 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Custom Jumbotron</title>
-  <!-- Required meta tags -->
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-
-  <!-- Style.css -->
-  <link rel="stylesheet" href="style.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="students.css">
 </head>
-
 <body>
 
-<!-- Page title -->
-<nav class="navbar navbar-light sticky-top bg-light">
-    <span class="navbar-brand mb-0 h1">UCLA UX/UI Boot Camp Final Projects Repo</span>
-</nav>
-  
-<!-- Jumbotron Header for projects -->
-
-<header>
-  <div class="jumbotron">
-    <div class="container d-flex justify-content-end text-right">
-      <div>
-        <h1 class="display-4">Work in Progress</h1>
-        <a class="btn" href="">More Info</a>
-      </div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">UCLA 2018</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
     </div>
   </div>
+</nav>
 
-</header>
-
-<hr> 
-
-  <!-- A row for each student project: Each row contains 3 cards. Goal is to add your own project row see README for instructions -->
-  <!-- Page Content -->
-
-<div class="container">
-
-  <!-- Page Heading -->
-  <h1 class="h1"> Sample Student Name
-    <small class="text-muted">GitHub: @cbecker</small>
-  </h1>
-  
-  <div class="row">
-    <div class="col-lg-4 col-sm-6 mb-4">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">My Bio</a>
-          </h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 mb-4">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">Category Cause</a>
-          </h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 mb-4">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">Specific Cause</a>
-          </h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-        </div>
-      </div>
-    </div>
+<!-- JUMBOTRON ====================================================== -->
+<div class="jumbotron">
+  <div class="container text-left">
+    <h1>UCLA UX Boot Camp 2018</h1>      
+    <p>Some text that represents "Me"...</p>
   </div>
 </div>
+<!-- END JUMBOTRON ====================================================== -->
 
-<!-- Footer -->
-<nav class="navbar navbar-dark bg-dark">
-    <span class="navbar-brand mb-0 h1">UCLA Footer</span>
-</nav>
+<!-- SECTION ABOUT CHRIS ====================================================== -->
+<section class="container bg-3 border-chris ">  
+  
+  <div class="row text-left">
+    <div class=" d-flex col-12">
+      <h2>Chris Becker</h2>
+      <div>
+        <ul class="list-inline m-0">
+            <li class="list-inline-item">
+              <a href="#"" class="btn btn-secondary" target="_blank">
+              <i class="fas fa-eye"></i>
+              My Portolio
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#myLinkedin" class="btn btn-secondary" target="_blank">
+              <i class="fas fa-download"></i>
+              Linkedin
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#mygithub" class="btn btn-secondary" target="_blank">
+              <i class="fab fa-github"></i>
+              Github
+              </a>
+            </li>
+        </ul>
+      </div>
+      <!-- <img class="chris" src="https://placehold.it/50x50?text=YOURFACE" alt="YourFace"> -->
+    </div>
+  </div>
+  <div class="row d-flex text-center">
+    <div class="col-sm-4">
+        <div class="card card-chris">
+            <img class="card-img-top" src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card card-chris">
+            <img class="card-img-top" src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card card-chris">
+            <img class="card-img-top" src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+  </div>
+</section>
+<!-- END ABOUT CHRIS ====================================================== -->
 
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
-
 </html>
