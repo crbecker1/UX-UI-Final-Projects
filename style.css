@@ -6,8 +6,8 @@
     
     /* Add a gray background color and some padding to the footer */
     footer {
-      background-color: #f2f2f2;
-      padding: 25px;
+      background-color: #6d6b6b;
+      padding: 2em;
     }
 
 .jumbotron {
@@ -29,10 +29,41 @@
 
 
 .card {
-  max-width:300px;
-  border: 1px solid lightblue;
+  max-width:340px;
+  border: 2px solid lightblue;
   padding-bottom: 20px;
   box-shadow: 7px 4px 30px 0px rgba(50, 50, 50, 0.2);
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
+  background: white;
+}
+
+
+/* Adding some card custom styles */
+
+.fa-awe {
+  padding: .5em;
+}
+
+.card-text {
+  padding: 1em;
+}
+
+.custom {
+  width: 120px;
+  border-radius: 100px;
+}
+
+.border-custom {
+  border-bottom: 2px solid tomato;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.card-custom {
+  max-width:300px;
+  border: 2px solid lightblue;
+  padding-bottom: 20px;
+  box-shadow: 7px 4px 30px 0px rgba(50, 50, 50, 0.2);
+  border-radius: 0px 0px 10px 10px;
   background: white;
 }
