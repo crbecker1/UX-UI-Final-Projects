@@ -11,9 +11,9 @@
     }
 
 .jumbotron {
-  background: #000 url("images/pencils.png") left center;
+  background: #000 url("images/LA-skyline.jpg") left center;
   width: 100%;
-  min-height: 350px;
+  min-height: 625px;
   background-size: cover;
   color: #fff;
 }
