@@ -60,7 +60,7 @@
 }
 
 .card-custom {
-  max-width:300px;
+  /* max-width:300px; */
   border: 2px solid lightblue;
   padding-bottom: 20px;
   box-shadow: 7px 4px 30px 0px rgba(50, 50, 50, 0.2);
